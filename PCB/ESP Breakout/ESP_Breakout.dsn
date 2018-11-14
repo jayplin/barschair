@@ -1,0 +1,222 @@
+(pcb "/Users/jannikschroer/Documents/JTech/airpipe/barschair/PCB/ESP Breakout/ESP_Breakout.dsn"
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "4.0.7")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer F.Cu
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer B.Cu
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (rect pcb 131587 -95165 179563 -132945)
+    )
+    (via "Via[0-1]_600:400_um")
+    (rule
+      (width 250)
+      (clearance 200.1)
+      (clearance 200.1 (type default_smd))
+      (clearance 50 (type smd_smd))
+    )
+  )
+  (placement
+    (component Pin_Headers:Pin_Header_Straight_1x11_Pitch2.54mm
+      (place J1 138430 -104140 front 0 (PN Conn_01x11_Male))
+      (place J2 172720 -129540 front 180 (PN Conn_01x11_Male))
+    )
+    (component "ESP8266:ESP-12E_SMD"
+      (place U1 148590 -104140 front 0 (PN "ESP-12E"))
+    )
+  )
+  (library
+    (image Pin_Headers:Pin_Header_Straight_1x11_Pitch2.54mm
+      (outline (path signal 100  -635 1270  1270 1270))
+      (outline (path signal 100  1270 1270  1270 -26670))
+      (outline (path signal 100  1270 -26670  -1270 -26670))
+      (outline (path signal 100  -1270 -26670  -1270 635))
+      (outline (path signal 100  -1270 635  -635 1270))
+      (outline (path signal 120  -1330 -26730  1330 -26730))
+      (outline (path signal 120  -1330 -1270  -1330 -26730))
+      (outline (path signal 120  1330 -1270  1330 -26730))
+      (outline (path signal 120  -1330 -1270  1330 -1270))
+      (outline (path signal 120  -1330 0  -1330 1330))
+      (outline (path signal 120  -1330 1330  0 1330))
+      (outline (path signal 50  -1800 1800  -1800 -27200))
+      (outline (path signal 50  -1800 -27200  1800 -27200))
+      (outline (path signal 50  1800 -27200  1800 1800))
+      (outline (path signal 50  1800 1800  -1800 1800))
+      (pin Rect[A]Pad_1700x1700_um 1 0 0)
+      (pin Oval[A]Pad_1700x1700_um 2 0 -2540)
+      (pin Oval[A]Pad_1700x1700_um 3 0 -5080)
+      (pin Oval[A]Pad_1700x1700_um 4 0 -7620)
+      (pin Oval[A]Pad_1700x1700_um 5 0 -10160)
+      (pin Oval[A]Pad_1700x1700_um 6 0 -12700)
+      (pin Oval[A]Pad_1700x1700_um 7 0 -15240)
+      (pin Oval[A]Pad_1700x1700_um 8 0 -17780)
+      (pin Oval[A]Pad_1700x1700_um 9 0 -20320)
+      (pin Oval[A]Pad_1700x1700_um 10 0 -22860)
+      (pin Oval[A]Pad_1700x1700_um 11 0 -25400)
+    )
+    (image "ESP8266:ESP-12E_SMD"
+      (outline (path signal 50  -2250 500  -2250 8750))
+      (outline (path signal 50  -2250 8750  15250 8750))
+      (outline (path signal 50  15250 8750  16250 8750))
+      (outline (path signal 50  16250 8750  16250 -16000))
+      (outline (path signal 50  16250 -16000  -2250 -16000))
+      (outline (path signal 50  -2250 -16000  -2250 500))
+      (outline (path signal 152.4  -1016 8382  14986 8382))
+      (outline (path signal 152.4  14986 8382  14986 889))
+      (outline (path signal 152.4  -1016 8382  -1016 1016))
+      (outline (path signal 152.4  -1016 -14859  -1016 -15621))
+      (outline (path signal 152.4  -1016 -15621  14986 -15621))
+      (outline (path signal 152.4  14986 -15621  14986 -14859))
+      (outline (path signal 152.4  14992 8400  -1008 2600))
+      (outline (path signal 152.4  -1008 8400  14992 2600))
+      (outline (path signal 152.4  -1008 2600  14992 2600))
+      (outline (path signal 50  15000 8400  15000 -15600))
+      (outline (path signal 50  14992 -15600  -1008 -15600))
+      (outline (path signal 50  -1008 -15600  -1008 8400))
+      (outline (path signal 50  -1008 8400  14992 8400))
+      (pin "Rect[T][-700,0]Pad_2500x1100_um" 1 0 0)
+      (pin "Rect[T][-700,0]Pad_2500x1100_um" 2 0 -2000)
+      (pin "Rect[T][-700,0]Pad_2500x1100_um" 3 0 -4000)
+      (pin "Rect[T][-700,0]Pad_2500x1100_um" 4 0 -6000)
+      (pin "Rect[T][-700,0]Pad_2500x1100_um" 5 0 -8000)
+      (pin "Rect[T][-700,0]Pad_2500x1100_um" 6 0 -10000)
+      (pin "Rect[T][-700,0]Pad_2500x1100_um" 7 0 -12000)
+      (pin "Rect[T][-700,0]Pad_2500x1100_um" 8 0 -14000)
+      (pin Rect[T][700,0]Pad_2500x1100_um 9 14000 -14000)
+      (pin Rect[T][700,0]Pad_2500x1100_um 10 14000 -12000)
+      (pin Rect[T][700,0]Pad_2500x1100_um 11 14000 -10000)
+      (pin Rect[T][700,0]Pad_2500x1100_um 12 14000 -8000)
+      (pin Rect[T][700,0]Pad_2500x1100_um 13 14000 -6000)
+      (pin Rect[T][700,0]Pad_2500x1100_um 14 14000 -4000)
+      (pin Rect[T][700,0]Pad_2500x1100_um 15 14000 -2000)
+      (pin Rect[T][700,0]Pad_2500x1100_um 16 14000 0)
+      (pin "Rect[T][-700,0]Pad_2500x1100_um" (rotate 90) 17 1990 -15000)
+      (pin "Rect[T][-700,0]Pad_2500x1100_um" (rotate 90) 18 3990 -15000)
+      (pin "Rect[T][-700,0]Pad_2500x1100_um" (rotate 90) 19 5990 -15000)
+      (pin "Rect[T][-700,0]Pad_2500x1100_um" (rotate 90) 20 7990 -15000)
+      (pin "Rect[T][-700,0]Pad_2500x1100_um" (rotate 90) 21 9990 -15000)
+      (pin "Rect[T][-700,0]Pad_2500x1100_um" (rotate 90) 22 11990 -15000)
+    )
+    (padstack Oval[A]Pad_1700x1700_um
+      (shape (path F.Cu 1700  0 0  0 0))
+      (shape (path B.Cu 1700  0 0  0 0))
+      (attach off)
+    )
+    (padstack "Rect[T][-700,0]Pad_2500x1100_um"
+      (shape (rect F.Cu -1950 -550 550 550))
+      (attach off)
+    )
+    (padstack Rect[T][700,0]Pad_2500x1100_um
+      (shape (rect F.Cu -550 -550 1950 550))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_1700x1700_um
+      (shape (rect F.Cu -850 -850 850 850))
+      (shape (rect B.Cu -850 -850 850 850))
+      (attach off)
+    )
+    (padstack "Via[0-1]_600:400_um"
+      (shape (circle F.Cu 600))
+      (shape (circle B.Cu 600))
+      (attach off)
+    )
+  )
+  (network
+    (net "Net-(J1-Pad1)"
+      (pins J1-1 U1-1)
+    )
+    (net "Net-(J1-Pad2)"
+      (pins J1-2 U1-2)
+    )
+    (net "Net-(J1-Pad3)"
+      (pins J1-3 U1-3)
+    )
+    (net "Net-(J1-Pad4)"
+      (pins J1-4 U1-4)
+    )
+    (net "Net-(J1-Pad5)"
+      (pins J1-5 U1-5)
+    )
+    (net "Net-(J1-Pad6)"
+      (pins J1-6 U1-6)
+    )
+    (net "Net-(J1-Pad7)"
+      (pins J1-7 U1-7)
+    )
+    (net "Net-(J1-Pad8)"
+      (pins J1-8 U1-8)
+    )
+    (net "Net-(J1-Pad9)"
+      (pins J1-9 U1-17)
+    )
+    (net "Net-(J1-Pad10)"
+      (pins J1-10 U1-18)
+    )
+    (net "Net-(J1-Pad11)"
+      (pins J1-11 U1-19)
+    )
+    (net "Net-(J2-Pad1)"
+      (pins J2-1 U1-20)
+    )
+    (net "Net-(J2-Pad2)"
+      (pins J2-2 U1-21)
+    )
+    (net "Net-(J2-Pad3)"
+      (pins J2-3 U1-22)
+    )
+    (net "Net-(J2-Pad4)"
+      (pins J2-4 U1-9)
+    )
+    (net "Net-(J2-Pad5)"
+      (pins J2-5 U1-10)
+    )
+    (net "Net-(J2-Pad6)"
+      (pins J2-6 U1-11)
+    )
+    (net "Net-(J2-Pad7)"
+      (pins J2-7 U1-12)
+    )
+    (net "Net-(J2-Pad8)"
+      (pins J2-8 U1-13)
+    )
+    (net "Net-(J2-Pad9)"
+      (pins J2-9 U1-14)
+    )
+    (net "Net-(J2-Pad10)"
+      (pins J2-10 U1-15)
+    )
+    (net "Net-(J2-Pad11)"
+      (pins J2-11 U1-16)
+    )
+    (class kicad_default "" "Net-(J1-Pad1)" "Net-(J1-Pad10)" "Net-(J1-Pad11)"
+      "Net-(J1-Pad2)" "Net-(J1-Pad3)" "Net-(J1-Pad4)" "Net-(J1-Pad5)" "Net-(J1-Pad6)"
+      "Net-(J1-Pad7)" "Net-(J1-Pad8)" "Net-(J1-Pad9)" "Net-(J2-Pad1)" "Net-(J2-Pad10)"
+      "Net-(J2-Pad11)" "Net-(J2-Pad2)" "Net-(J2-Pad3)" "Net-(J2-Pad4)" "Net-(J2-Pad5)"
+      "Net-(J2-Pad6)" "Net-(J2-Pad7)" "Net-(J2-Pad8)" "Net-(J2-Pad9)"
+      (circuit
+        (use_via Via[0-1]_600:400_um)
+      )
+      (rule
+        (width 250)
+        (clearance 200.1)
+      )
+    )
+  )
+  (wiring
+  )
+)
