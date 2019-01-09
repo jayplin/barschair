@@ -1,6 +1,6 @@
-update=Mittwoch, 28. November 2018 'u19' 20:19:14
+update=Mittwoch, 28. November 2018 'u17' 20:17:11
 version=1
-last_client=eeschema
+last_client=kicad
 [pcbnew]
 version=1
 LastNetListRead=
@@ -23,8 +23,6 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=
@@ -58,4 +56,5 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-LibName30=/Users/jannikschroer/Documents/JTech/airpipe/barschair/PCB/kicad/libs/esp lib 2/kicad-ESP8266/ESP8266
+[general]
+version=1
