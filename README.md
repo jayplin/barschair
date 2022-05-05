@@ -1,7 +1,7 @@
 
 # barschair
 
-A wifi controlled bladess fan powered by quatrocopter blades.    
+A wifi controlled bladess fan powered by quatrocopter blades. A private learning journey through the world of PCB design. 
 
 
 ## Tech Stack
