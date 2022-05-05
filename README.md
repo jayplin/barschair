@@ -1,5 +1,19 @@
+
 # barschair
-## Komponenten
+
+A wifi controlled fanless ventilator powered by quatrocopter blades.    
+
+
+## Tech Stack
+
+ **PCB Design:** [Kicad](https://www.kicad.org/)
+
+ **Microcontroller:** [ESP8266](https://www.espressif.com/en/products/socs/esp8266)
+
+ **Client:** [Blynk](https://blynk.io/)
+ 
+
+## Components
 ```
    +-----------------------------------------------+
      |                                               |
@@ -7,17 +21,17 @@
      |                                               |
 +----+----+                                          |
 |         +--------------------------+               |
-|Strom    |                 |LED     |               |
+|Power    |                 |LED     |               |
 +-----+---+------+          |        |               |
       |          |          +---+----+               |
       |          |              |              +-----+---+     +-----------+
- +----+----+     |              |              |   ESC   |     | Mot       |
+ +----+----+     |              |              |   ESC   |     | Motor     |
  |Sonoff   |     |              |       +------+         +-----+           |
  +---------+     |          +---+----+  |      +---------+     +-----------+
                  |          |  ESP   +--------------------+
                  |          |        +--+                 |
                  |          +---+---++      +--------+   ++-------+
-                 |              |   |       |Prog    |   |Taster  |
+                 |              |   |       |Prog    |   |Switch  |
                  |              |   +-------+        |   +--------+
                  |          +---+-----+     +--------+
                  +----------+  Servo  |
