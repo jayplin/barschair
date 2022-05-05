@@ -1,7 +1,7 @@
 
 # barschair
 
-A wifi controlled fanless ventilator powered by quatrocopter blades.    
+A wifi controlled bladess fan powered by quatrocopter blades.    
 
 
 ## Tech Stack
